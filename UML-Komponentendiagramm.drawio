@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
+    <mxGraphModel dx="1647" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10" value="Backend (Spring Boot)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="280" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-61" value="JWT Auth      " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-76" value="  Datenbank          " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-77" value="  API Gateway           " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-78" value="  Benutzer, Notizen, Gruppenverwaltung          " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-57" value="   Frontend (HTML/React)     " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-86" value="- Benutzeroberfläche zur Anzeige und Bearbeitung     &#xa;- Interagiert über REST-API mit Backend " style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=8;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="207" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-87" value="- Geschäftslogik&#xa;- Verarbeitet Anfragen vom Frontend&#xa;- Verwaltet Authentifizierung mit JWT" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="377" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-88" value="-Authentifizierung" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="589" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-89" value="- MySQL&#xa;- PostgreSQL" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="590" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-90" value="- Kommunikation" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-91" value="- Speicherung von Benutzern, Notizen und Gruppendaten&#xa;- Rollen- und Zugriffsrechte" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="790" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-92" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-86" target="10">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="830" y="115" as="sourcePoint" />
+            <mxPoint x="900" y="425" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-93" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-87" target="MxWbC06eTIprp8TLOBbo-61">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="170" y="477" as="sourcePoint" />
+            <mxPoint x="170" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-94" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-87" target="MxWbC06eTIprp8TLOBbo-76">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="390" y="447" as="sourcePoint" />
+            <mxPoint x="190" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-95" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-87" target="MxWbC06eTIprp8TLOBbo-77">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="400" y="457" as="sourcePoint" />
+            <mxPoint x="200" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-96" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-89" target="MxWbC06eTIprp8TLOBbo-78">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="580" y="710" as="sourcePoint" />
+            <mxPoint x="610" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-97" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-88" target="MxWbC06eTIprp8TLOBbo-78">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="430" y="660" as="sourcePoint" />
+            <mxPoint x="375" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

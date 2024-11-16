@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
+    <mxGraphModel dx="3458" dy="2210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Admin" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="672" y="205.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Benutzer verwalten" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="350" y="619" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Gruppen verwalten" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="350" y="709" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Notizen Löschen" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="840" y="779" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="User" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="2" target="27" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="22" y="265.5" as="sourcePoint" />
+            <mxPoint x="772" y="345.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="27" target="MxWbC06eTIprp8TLOBbo-61" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="920" y="730" as="sourcePoint" />
+            <mxPoint x="980" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="9" target="10" edge="1">
+          <mxGeometry x="62" y="175.5" width="100" height="100" as="geometry">
+            <mxPoint x="300" y="269" as="sourcePoint" />
+            <mxPoint x="400" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-55" value="Group Leader" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="880" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-56" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="MxWbC06eTIprp8TLOBbo-55">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="782" y="276" as="sourcePoint" />
+            <mxPoint x="930" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-57" value="Use Cases" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="672" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-59" value="Notizen erstellen" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="619" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-60" value="Notizen teilen" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="699" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-61" value="Persönliche Notizen" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="619" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-62" value="Notizen in Gruppen anzeigen" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="619" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-64" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-59" target="MxWbC06eTIprp8TLOBbo-60">
+          <mxGeometry x="62" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="620" y="259" as="sourcePoint" />
+            <mxPoint x="720" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-60">
+          <mxGeometry x="62" y="175.5" width="100" height="100" as="geometry">
+            <mxPoint x="620" y="269" as="sourcePoint" />
+            <mxPoint x="940" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-70" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.555;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="27" target="MxWbC06eTIprp8TLOBbo-59">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="630" y="420" as="sourcePoint" />
+            <mxPoint x="704" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-71" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWbC06eTIprp8TLOBbo-55" target="MxWbC06eTIprp8TLOBbo-62">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="610" y="410" as="sourcePoint" />
+            <mxPoint x="714" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWbC06eTIprp8TLOBbo-72" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="9">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="620" y="420" as="sourcePoint" />
+            <mxPoint x="724" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
